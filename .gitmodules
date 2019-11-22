@@ -1,0 +1,3 @@
+[submodule "./JavaIRISDemos"]
+	path = ./JavaIRISDemos
+	url = https://github.com/LinZhuISC/IRISAndJavaDemos.git
