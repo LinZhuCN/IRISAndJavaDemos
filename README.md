@@ -22,6 +22,6 @@ ClassMethod Prepare(){ w ##class(DataModel.Patient).Populate(100) }
 
 }
 
-Then in any IRIS terminal and under the namespace, use command
+Then uner any IRIS terminal and in the namespace, use command
 Do ##class(DataModel.Patient).Prepare() 
 to generate sample data.
