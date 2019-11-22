@@ -2,7 +2,7 @@
 Demos to illustrate IRIS-Java integration
 
 
-# JavaIRISDemo
+# JavaIRISDemos
 
 # SpringMyBatisIRISDemo
 
@@ -21,3 +21,7 @@ Property Gender As %String(VALUELIST = ",M,F");
 ClassMethod Prepare(){ w ##class(DataModel.Patient).Populate(100) }
 
 }
+
+Then in any IRIS terminal and under the namespace, use command
+Do ##class(DataModel.Patient).Prepare() 
+to generate sample data.
